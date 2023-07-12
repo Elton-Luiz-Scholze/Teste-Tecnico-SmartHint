@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Teste-Tecnico-SmartHint", "Teste-Tecnico-SmartHint\Teste-Tecnico-SmartHint.csproj", "{0B3532B9-A848-4AED-9225-00AD0C8D6EF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B3532B9-A848-4AED-9225-00AD0C8D6EF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B3532B9-A848-4AED-9225-00AD0C8D6EF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B3532B9-A848-4AED-9225-00AD0C8D6EF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B3532B9-A848-4AED-9225-00AD0C8D6EF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {59116E5C-35F4-408B-8EF3-F966D1804275}
+	EndGlobalSection
+EndGlobal
