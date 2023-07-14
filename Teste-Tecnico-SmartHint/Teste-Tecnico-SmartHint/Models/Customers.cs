@@ -40,6 +40,7 @@ namespace Teste_Tecnico_SmartHint.Models
         [RegularExpression(@"^\(\d{2}\)\d{5}-\d{4}$", ErrorMessage = "O telefone inserido não é válido. Use o formato (##)#####-####.")]
         public string Telephone { get; set; }
 
+        [Display(Name = "Data de criação")]
         [Column("Created_at")]
         [DataType(DataType.Date)]
         public DateTime Created_at { get; set; }
@@ -58,8 +59,9 @@ namespace Teste_Tecnico_SmartHint.Models
 
         [Display(Name = "Inscrição Estadual do Cliente, selecionar Isento caso assim for.")]
         [Column("StateRegistration")]
-        [StringLength(12, ErrorMessage = "A Inscrição Estadual do cliente deve ter no máximo 12 caracteres.")]
+        [StringLength(15, ErrorMessage = "A Inscrição Estadual do cliente deve ter no máximo 12 caracteres.")]
         [Required(ErrorMessage = "Este campo é obrigatório")]
+        [RegularExpression(@"^\d{3}\.\d{3}\.\d{3}-\d{3}$", ErrorMessage = "A Inscrição Estadual não é válida. Use o formato ###.###.###-###")]
         public string StateRegistration { get; set; }
 
         [Display(Name = "Isento")]

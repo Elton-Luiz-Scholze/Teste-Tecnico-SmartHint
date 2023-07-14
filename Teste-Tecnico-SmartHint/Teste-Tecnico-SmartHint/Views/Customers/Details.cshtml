@@ -1,13 +1,12 @@
 ﻿@model Teste_Tecnico_SmartHint.Models.Customers
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Dados do cliente";
 }
 
-<h1>Details</h1>
+<h1>Dados do cliente</h1>
 
 <div>
-    <h4>Customers</h4>
     <hr />
     <dl class="row">
         <dt class = "col-sm-2">
@@ -76,15 +75,9 @@
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Is_blocked)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Password)
-        </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Password)
-        </dd>
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Editar</a> |
+    <a asp-action="Index">Voltar</a>
 </div>
