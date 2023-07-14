@@ -89,7 +89,7 @@ namespace Teste_Tecnico_SmartHint.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(Guid id, [Bind("Id,Name,Email,Telephone,Created_at,Type,CPF_CNPJ,StateRegistration,Is_free,Gender,Birthdate,Is_blocked,Password, PasswordConfirm")] Customers customers)
+        public async Task<IActionResult> Edit(Guid id, [Bind("Id,Name,Email,Telephone,Created_at,Type,CPF_CNPJ,StateRegistration,Is_free,Gender,Birthdate,Is_blocked,Password,PasswordConfirm")] Customers customers)
         {
             if (id != customers.Id)
             {

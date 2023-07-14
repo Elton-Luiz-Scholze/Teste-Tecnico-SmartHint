@@ -13,17 +13,17 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="Name" class="control-label"></label>
-                <input asp-for="Name" class="form-control"/>
+                <input asp-for="Name" class="form-control" placeholder="Digite o Nome/Razão Social"/>
                 <span asp-validation-for="Name" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Email" class="control-label"></label>
-                <input asp-for="Email" class="form-control" />
+                <input asp-for="Email" class="form-control" placeholder="Digite o email" />
                 <span asp-validation-for="Email" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Telephone" class="control-label"></label>
-                <input asp-for="Telephone" class="form-control" required/>
+                <input asp-for="Telephone" class="form-control" placeholder="Digite o telefone" />
                 <span asp-validation-for="Telephone" class="text-danger"></span>
             </div>
             <div class="form-group">
@@ -39,12 +39,12 @@
             </div>
             <div class="form-group">
                 <label asp-for="CPF_CNPJ" class="control-label"></label>
-                <input asp-for="CPF_CNPJ" class="form-control" />
+                <input asp-for="CPF_CNPJ" class="form-control" placeholder="Digite CPF/CNPJ" />
                 <span asp-validation-for="CPF_CNPJ" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="StateRegistration" class="control-label"></label>
-                <input asp-for="StateRegistration" class="form-control" />
+                <input asp-for="StateRegistration" class="form-control" placeholder="Digite a inscrição estadual" />
                 <span asp-validation-for="StateRegistration" class="text-danger"></span>
             </div>
             <div class="form-group form-check">
@@ -75,12 +75,12 @@
             </div>
             <div class="form-group">
                 <label asp-for="Password" class="control-label"></label>
-                <input asp-for="Password" class="form-control" />
+                <input asp-for="Password" class="form-control" placeholder="Digite a senha" />
                 <span asp-validation-for="Password" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="PasswordConfirm" class="control-label"></label>
-                <input asp-for="PasswordConfirm" class="form-control" />
+                <input asp-for="PasswordConfirm" class="form-control" placeholder="Confirme a senha" />
                 <span asp-validation-for="PasswordConfirm" class="text-danger"></span>
             </div>
             <div class="form-group">
